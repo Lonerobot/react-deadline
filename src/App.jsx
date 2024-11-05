@@ -12,19 +12,21 @@ const AppContainer = styled.div`
   gap: 10px;
 `;
 
+const SiteContainer = styled.div`
+  display: flex;
+  flex-direction : column;
+`;
+
 function App() {
   return (
     <div className="App">
-
-
-      <Header name="Mini Deadline"/>
-
-      <AppContainer>
-  
+      <SiteContainer>
+        <Header name="Mini Deadline" />
+        <AppContainer>
           <JobList />
           <WorkerList />
-       
-      </AppContainer>
+        </AppContainer>
+      </SiteContainer>
     </div>
   );
 }

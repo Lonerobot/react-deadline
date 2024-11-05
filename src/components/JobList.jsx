@@ -142,7 +142,6 @@ const Container = styled.div`
   padding: 10px;
   border-radius: 8px;
   max-width: 800px;
-
 `;
 
 const JobList = () => {

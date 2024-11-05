@@ -5,14 +5,12 @@ import styled from "styled-components";
 const HeaderContainer = styled.div`
   display: flex;
   align-items : center ;
-  gap: 24px;
-  /* background-color: ${({ theme }) => theme.colors.tileBackground}; */
   background-color: #5c5c5c7d;
   border-radius: 8px;
-  padding: 10px 10px 5px 10px;
   justify-content : space-between;
-  width : 650px;
-  margin : auto;
+  width : 100%;
+  max-width : 840px;
+  margin : 10px auto auto auto;
 `;
 
 const TitleStyle = styled.h1`
@@ -20,7 +18,7 @@ const TitleStyle = styled.h1`
   letter-spacing: 0.5em; /* Increases space between letters */
   padding-left: 10px;
   text-transform: uppercase;
-  color: #e4e7ea;
+  color: wheat;
 `;
 
 const Header = ( { name }) => {
